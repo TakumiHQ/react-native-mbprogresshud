@@ -1,0 +1,25 @@
+{
+  "name": "react-native-mbprogresshud",
+  "version": "1.0.0",
+  "description": "iOS MBProgressHUD react-native wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fimbit/react-native-mbprogresshud.git"
+  },
+  "keywords": [
+    "MBProgressHUD"
+  ],
+  "dependencies": {
+    "react-native": ">0.12.0"
+  },
+  "author": "fimbit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fimbit/react-native-mbprogresshud/issues"
+  },
+  "homepage": "https://github.com/fimbit/react-native-mbprogresshud#readme"
+}

@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B256E001C9A4B4700E83677 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B89D2E41C9999B2007F5586 /* MBProgressHUD.m */; };
+		4B89D3071C9A462A007F5586 /* MBProgressHUDHostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B89D3061C9A462A007F5586 /* MBProgressHUDHostView.m */; };
+		4B89D30A1C9A46A9007F5586 /* MBProgressHUDHostViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B89D3091C9A46A9007F5586 /* MBProgressHUDHostViewManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B89D2B31C9991B5007F5586 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B89D2B51C9991B5007F5586 /* libRCTMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B89D2E31C9999B2007F5586 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4B89D2E41C9999B2007F5586 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4B89D3051C9A462A007F5586 /* MBProgressHUDHostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDHostView.h; sourceTree = "<group>"; };
+		4B89D3061C9A462A007F5586 /* MBProgressHUDHostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDHostView.m; sourceTree = "<group>"; };
+		4B89D3081C9A46A9007F5586 /* MBProgressHUDHostViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDHostViewManager.h; sourceTree = "<group>"; };
+		4B89D3091C9A46A9007F5586 /* MBProgressHUDHostViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDHostViewManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B89D2B21C9991B5007F5586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B89D2AC1C9991B5007F5586 = {
+			isa = PBXGroup;
+			children = (
+				4B89D2E21C9999B2007F5586 /* RCTMBProgressHUD */,
+				4B89D2B61C9991B5007F5586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B89D2B61C9991B5007F5586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B89D2B51C9991B5007F5586 /* libRCTMBProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B89D2E21C9999B2007F5586 /* RCTMBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4B89D2E31C9999B2007F5586 /* MBProgressHUD.h */,
+				4B89D2E41C9999B2007F5586 /* MBProgressHUD.m */,
+				4B89D3051C9A462A007F5586 /* MBProgressHUDHostView.h */,
+				4B89D3061C9A462A007F5586 /* MBProgressHUDHostView.m */,
+				4B89D3081C9A46A9007F5586 /* MBProgressHUDHostViewManager.h */,
+				4B89D3091C9A46A9007F5586 /* MBProgressHUDHostViewManager.m */,
+			);
+			path = RCTMBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B89D2B41C9991B5007F5586 /* RCTMBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B89D2BE1C9991B5007F5586 /* Build configuration list for PBXNativeTarget "RCTMBProgressHUD" */;
+			buildPhases = (
+				4B89D2B11C9991B5007F5586 /* Sources */,
+				4B89D2B21C9991B5007F5586 /* Frameworks */,
+				4B89D2B31C9991B5007F5586 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTMBProgressHUD;
+			productName = RCTMBProgressHUD;
+			productReference = 4B89D2B51C9991B5007F5586 /* libRCTMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B89D2AD1C9991B5007F5586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bigfacecat;
+				TargetAttributes = {
+					4B89D2B41C9991B5007F5586 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4B89D2B01C9991B5007F5586 /* Build configuration list for PBXProject "RCTMBProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B89D2AC1C9991B5007F5586;
+			productRefGroup = 4B89D2B61C9991B5007F5586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B89D2B41C9991B5007F5586 /* RCTMBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B89D2B11C9991B5007F5586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B256E001C9A4B4700E83677 /* MBProgressHUD.m in Sources */,
+				4B89D30A1C9A46A9007F5586 /* MBProgressHUDHostViewManager.m in Sources */,
+				4B89D3071C9A462A007F5586 /* MBProgressHUDHostView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B89D2BC1C9991B5007F5586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B89D2BD1C9991B5007F5586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B89D2BF1C9991B5007F5586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B89D2C01C9991B5007F5586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B89D2B01C9991B5007F5586 /* Build configuration list for PBXProject "RCTMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B89D2BC1C9991B5007F5586 /* Debug */,
+				4B89D2BD1C9991B5007F5586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B89D2BE1C9991B5007F5586 /* Build configuration list for PBXNativeTarget "RCTMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B89D2BF1C9991B5007F5586 /* Debug */,
+				4B89D2C01C9991B5007F5586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B89D2AD1C9991B5007F5586 /* Project object */;
+}
