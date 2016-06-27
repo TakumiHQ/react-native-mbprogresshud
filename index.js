@@ -5,7 +5,7 @@
 'use strict';
 
 var React = require('react');
-var {StyleSheet} = require('react-native');
+var {requireNativeComponent, StyleSheet} = require('react-native');
 
 var MBProgressHUDIOS = React.createClass({
     propTypes: {
@@ -40,6 +40,6 @@ var styles = StyleSheet.create({
     },
 });
 
-var RCTMBProgressHUD = React.requireNativeComponent('MBProgressHUDHostView', MBProgressHUDIOS);
+var RCTMBProgressHUD = requireNativeComponent('MBProgressHUDHostView', MBProgressHUDIOS);
 
 module.exports = MBProgressHUDIOS;
