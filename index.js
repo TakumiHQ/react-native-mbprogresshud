@@ -5,9 +5,7 @@
 'use strict';
 
 var React = require('react');
-var {
-    StyleSheet,
-    } = React;
+var {StyleSheet} = require('react-native');
 
 var MBProgressHUDIOS = React.createClass({
     propTypes: {
